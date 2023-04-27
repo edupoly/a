@@ -7,7 +7,8 @@ function App() {
       <h1>This is App Component</h1>
       <Link to="/home">Home</Link>&nbsp;&nbsp;&nbsp;
       <Link to="/aboutus">Aboutus</Link>&nbsp;&nbsp;&nbsp;
-      <Link to="/contact">Contactus</Link>
+      <Link to="/contact">Contactus</Link>&nbsp;&nbsp;&nbsp;
+      <Link to="/products">Products</Link>&nbsp;&nbsp;&nbsp;
       <Outlet></Outlet>
     </div>
   );

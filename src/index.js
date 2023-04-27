@@ -10,6 +10,8 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Contactus from './Contactus';
+import Products from './Products';
+import ProductDetails from './ProductDetails';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path:'/contact',
         element:<Contactus></Contactus>
+      },
+      {
+        path:'/products',
+        element:<Products></Products>
+      },
+      {
+        path:"/details/:id",
+        element:<ProductDetails></ProductDetails>
       }
     ]
   },
